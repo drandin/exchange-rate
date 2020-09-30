@@ -414,3 +414,7 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
           private 'internalCommonCode' => string 'R01110' (length=6)
       ...
 ```
+
+## Лицензия (License)
+
+[MIT license](LICENSE)

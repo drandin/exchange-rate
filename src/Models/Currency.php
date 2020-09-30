@@ -61,7 +61,7 @@ final class Currency
      */
     public function setName(string $name): Currency
     {
-        $this->name = $name;
+        $this->name = $this->cleaner($name);
         return $this;
     }
 
@@ -79,7 +79,7 @@ final class Currency
      */
     public function setNameEng(string $nameEng): Currency
     {
-        $this->nameEng = $nameEng;
+        $this->nameEng = $this->cleaner($nameEng);
         return $this;
     }
 
@@ -115,7 +115,7 @@ final class Currency
      */
     public function setNumericCode(string $numericCode): Currency
     {
-        $this->numericCode = $numericCode;
+        $this->numericCode = $this->cleaner($numericCode);
         return $this;
     }
 
@@ -133,7 +133,7 @@ final class Currency
      */
     public function setSymbolCode(string $symbolCode): Currency
     {
-        $this->symbolCode = $symbolCode;
+        $this->symbolCode = $this->cleaner($symbolCode);
         return $this;
     }
 
@@ -179,7 +179,7 @@ final class Currency
      */
     private function cleaner(string $str)
     {
-        return trim(str_replace(' ', '', $str));
+        return trim(preg_replace('/\s\s+/', ' ', $str));
     }
 
 

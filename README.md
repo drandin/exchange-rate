@@ -342,8 +342,8 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
     array (size=85)
       'ALL' => 
         object(CentralBankRussian\ExchangeRate\Models\Currency)[822]
-          private 'name' => string 'Албанский лек                                                                                                                                                                                                                                                 ' (length=266)
-          private 'nameEng' => string 'Albanian Lek                                                                                                                                                                                                                                                  ' (length=254)
+          private 'name' => string 'Албанский лек' (length=25)
+          private 'nameEng' => string 'Albanian Lek' (length=12)
           private 'quantity' => int 100
           private 'numericCode' => string '8' (length=1)
           private 'symbolCode' => string 'ALL' (length=3)
@@ -351,8 +351,8 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
           private 'internalCommonCode' => string 'R01025' (length=6)
       'DZD' => 
         object(CentralBankRussian\ExchangeRate\Models\Currency)[818]
-          private 'name' => string 'Алжирский динар                                                                                                                                                                                                                                               ' (length=268)
-          private 'nameEng' => string 'Algerian Dinar                                                                                                                                                                                                                                                ' (length=254)
+          private 'name' => string 'Алжирский динар' (length=29)
+          private 'nameEng' => string 'Algerian Dinar' (length=14)
           private 'quantity' => int 100
           private 'numericCode' => string '12' (length=2)
           private 'symbolCode' => string 'DZD' (length=3)
@@ -360,8 +360,8 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
           private 'internalCommonCode' => string 'R01030' (length=6)
       'AOA' => 
         object(CentralBankRussian\ExchangeRate\Models\Currency)[824]
-          private 'name' => string 'Ангольская кванза                                                                                                                                                                                                                                             ' (length=270)
-          private 'nameEng' => string 'Angolan Kwanza                                                                                                                                                                                                                                                ' (length=254)
+          private 'name' => string 'Ангольская кванза' (length=33)
+          private 'nameEng' => string 'Angolan Kwanza' (length=14)
           private 'quantity' => int 100
           private 'numericCode' => string '973' (length=3)
           private 'symbolCode' => string 'AOA' (length=3)
@@ -369,8 +369,8 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
           private 'internalCommonCode' => string 'R01040' (length=6)
       'ARS' => 
         object(CentralBankRussian\ExchangeRate\Models\Currency)[823]
-          private 'name' => string 'Аргентинское песо                                                                                                                                                                                                                                             ' (length=270)
-          private 'nameEng' => string 'Argentine Peso                                                                                                                                                                                                                                                ' (length=254)
+          private 'name' => string 'Аргентинское песо' (length=33)
+          private 'nameEng' => string 'Argentine Peso' (length=14)
           private 'quantity' => int 10
           private 'numericCode' => string '32' (length=2)
           private 'symbolCode' => string 'ARS' (length=3)
@@ -378,8 +378,8 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
           private 'internalCommonCode' => string 'R01055' (length=6)
       'AFN' => 
         object(CentralBankRussian\ExchangeRate\Models\Currency)[825]
-          private 'name' => string 'Афганский афгани                                                                                                                                                                                                                                              ' (length=269)
-          private 'nameEng' => string 'Afghanistan Afgani                                                                                                                                                                                                                                            ' (length=254)
+          private 'name' => string 'Афганский афгани' (length=31)
+          private 'nameEng' => string 'Afghanistan Afgani' (length=18)
           private 'quantity' => int 100
           private 'numericCode' => string '971' (length=3)
           private 'symbolCode' => string 'AFN' (length=3)
@@ -387,8 +387,8 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
           private 'internalCommonCode' => string 'R01065' (length=6)
       'BHD' => 
         object(CentralBankRussian\ExchangeRate\Models\Currency)[826]
-          private 'name' => string 'Бахрейнский динар                                                                                                                                                                                                                                             ' (length=270)
-          private 'nameEng' => string 'Bahraini Dinar                                                                                                                                                                                                                                                ' (length=254)
+          private 'name' => string 'Бахрейнский динар' (length=33)
+          private 'nameEng' => string 'Bahraini Dinar' (length=14)
           private 'quantity' => int 1
           private 'numericCode' => string '48' (length=2)
           private 'symbolCode' => string 'BHD' (length=3)
@@ -396,22 +396,13 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
           private 'internalCommonCode' => string 'R01080' (length=6)
       'BOB' => 
         object(CentralBankRussian\ExchangeRate\Models\Currency)[827]
-          private 'name' => string 'Боливийский боливиано                                                                                                                                                                                                                                         ' (length=274)
-          private 'nameEng' => string 'Bolivian Boliviano                                                                                                                                                                                                                                            ' (length=254)
+          private 'name' => string 'Боливийский боливиано' (length=41)
+          private 'nameEng' => string 'Bolivian Boliviano' (length=18)
           private 'quantity' => int 10
           private 'numericCode' => string '68' (length=2)
           private 'symbolCode' => string 'BOB' (length=3)
           private 'internalCode' => string 'R01105' (length=6)
           private 'internalCommonCode' => string 'R01105' (length=6)
-      'BWP' => 
-        object(CentralBankRussian\ExchangeRate\Models\Currency)[828]
-          private 'name' => string 'Ботсванская пула                                                                                                                                                                                                                                              ' (length=269)
-          private 'nameEng' => string 'Botswana Pula                                                                                                                                                                                                                                                 ' (length=254)
-          private 'quantity' => int 10
-          private 'numericCode' => string '72' (length=2)
-          private 'symbolCode' => string 'BWP' (length=3)
-          private 'internalCode' => string 'R01110' (length=6)
-          private 'internalCommonCode' => string 'R01110' (length=6)
       ...
 ```
 

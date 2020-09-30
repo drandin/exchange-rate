@@ -1,0 +1,28 @@
+{
+    "name": "drandin/exchange-rate",
+    "description": "Exchange rate of the Central Bank of the Russian Federation. Currency converter. Getting data from the Central Bank's website cbr.ru",
+    "keywords": [
+        "Exchange rate",
+        "Central Bank of the Russian Federation",
+        "cbr.ru",
+        "Currency converter",
+        "PHP",
+        "Currency"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Drandin",
+            "email": "idrandin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "CentralBankRussian\\ExchangeRate\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3"
+    }
+}

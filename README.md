@@ -425,6 +425,9 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyCollection)[819]
 | $internalCommonCode | Внутренний код валюты, являющейся базовым в рамках базы данных ЦБ РФ\. Этот код используется для связи, при изменениях кодов или названий фактически одной и той же валюты\.                                                                            |
 
 
+## Ссылка на описание web-сервиса ЦБ РФ
+
+https://www.cbr.ru/development/DWS/
 
 ## Лицензия (License)
 

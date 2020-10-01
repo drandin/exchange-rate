@@ -16,7 +16,7 @@
 Для установки пакета следует выполнить команду:
 
 ```shell script
-composer require drandin/declension-nouns
+composer require drandin/exchange-rate
 ```
 
 ## Использование

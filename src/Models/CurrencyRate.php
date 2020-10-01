@@ -60,7 +60,7 @@ final class CurrencyRate
      */
     public function setName(string $name): CurrencyRate
     {
-        $this->name = $name;
+        $this->name = $this->cleaner($name);
         return $this;
     }
 
@@ -125,7 +125,7 @@ final class CurrencyRate
      */
     public function setNumericCode(string $numericCode): CurrencyRate
     {
-        $this->numericCode = trim($numericCode);
+        $this->numericCode = $this->cleaner($numericCode);
         return $this;
     }
 
@@ -145,7 +145,7 @@ final class CurrencyRate
      */
     public function setSymbolCode(string $symbolCode): CurrencyRate
     {
-        $this->symbolCode = $symbolCode;
+        $this->symbolCode = $this->cleaner($symbolCode);
         return $this;
     }
 
@@ -159,6 +159,15 @@ final class CurrencyRate
     {
         $value = ($this->getExchangeRate() / $this->getQuantity());
         return (float) number_format($value, 4, '.','');
+    }
+
+    /**
+     * @param string $str
+     * @return string
+     */
+    private function cleaner(string $str)
+    {
+        return trim(preg_replace('/\s\s+/', ' ', $str));
     }
 
 

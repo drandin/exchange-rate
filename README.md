@@ -57,35 +57,35 @@ object(CentralBankRussian\ExchangeRate\Collections\CurrencyRateCollection)[819]
     array (size=35)
       'AUD' => 
         object(CentralBankRussian\ExchangeRate\Models\CurrencyRate)[823]
-          private 'name' => string 'Австралийский доллар                                                                                                                                                                                                                                          ' (length=273)
+          private 'name' => string 'Австралийский доллар' (length=39)
           private 'exchangeRate' => float 42.6046
           private 'quantity' => int 1
           private 'numericCode' => string '36' (length=2)
           private 'symbolCode' => string 'AUD' (length=3)
       'AZN' => 
         object(CentralBankRussian\ExchangeRate\Models\CurrencyRate)[822]
-          private 'name' => string 'Азербайджанский манат                                                                                                                                                                                                                                         ' (length=274)
+          private 'name' => string 'Азербайджанский манат' (length=41)
           private 'exchangeRate' => float 37.589
           private 'quantity' => int 1
           private 'numericCode' => string '944' (length=3)
           private 'symbolCode' => string 'AZN' (length=3)
       'GBP' => 
         object(CentralBankRussian\ExchangeRate\Models\CurrencyRate)[824]
-          private 'name' => string 'Фунт стерлингов Соединенного королевства                                                                                                                                                                                                                      ' (length=291)
+          private 'name' => string 'Фунт стерлингов Соединенного королевства' (length=77)
           private 'exchangeRate' => float 82.7987
           private 'quantity' => int 1
           private 'numericCode' => string '826' (length=3)
           private 'symbolCode' => string 'GBP' (length=3)
       'AMD' => 
         object(CentralBankRussian\ExchangeRate\Models\CurrencyRate)[825]
-          private 'name' => string 'Армянский драм                                                                                                                                                                                                                                                ' (length=267)
+          private 'name' => string 'Армянский драм' (length=27)
           private 'exchangeRate' => float 13.327
           private 'quantity' => int 100
           private 'numericCode' => string '51' (length=2)
           private 'symbolCode' => string 'AMD' (length=3)
       'BYN' => 
         object(CentralBankRussian\ExchangeRate\Models\CurrencyRate)[826]
-          private 'name' => string 'Белорусский рубль                                                                                                                                                                                                                                             ' (length=270)
+          private 'name' => string 'Белорусский рубль' (length=33)
           private 'exchangeRate' => float 28.931
           private 'quantity' => int 1
           private 'numericCode' => string '933' (length=3)
